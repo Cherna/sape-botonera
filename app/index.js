@@ -19,7 +19,7 @@ const Index = () =>
     {Object.keys(audioList).map(audioName =>
       <li className="audio-container" key={audioName}>
         <p className="audio-name">{audioName.replace(/_/g, ' ')}</p>
-        <Audio name={audioName} src={`/${audioList[audioName]}`}/>
+        <Audio name={audioName} src={`../${audioList[audioName]}`}/>
       </li>
     )}
   </ul>;
