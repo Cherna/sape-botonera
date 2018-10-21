@@ -1,12 +1,12 @@
 {
   "name": "botonera",
   "version": "0.0.0",
-  "description": "Plain webpack 4 Boilerplate with Babel, SASS and lodash on board",
+  "description": "",
   "author": "",
   "license": "MIT",
   "homepage": "",
   "scripts": {
-    "start": "node ./tools && npm run dev",
+    "start": "node ./tools/gatherAudioFiles.js && npm run dev",
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack.config.dev.js",
     "build": "node ./tools && webpack -p --progress --mode production --config webpack.config.build.js"
   },

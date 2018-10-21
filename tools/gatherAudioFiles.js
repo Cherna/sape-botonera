@@ -15,6 +15,7 @@ fs.readdir(audioPath, (err, files) => {
 
   let listData = {};
   files.forEach(name => {
+    console.log(name);
     const cleanName = name.replace(path.extname(name), '');
     listData[cleanName] = `${audioPath}${name}`;
   });

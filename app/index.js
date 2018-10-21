@@ -24,4 +24,4 @@ const Index = () =>
     )}
   </ul>;
 
-ReactDOM.render( <Index/> , document.getElementById("index"));
+ReactDOM.render( <Index/>, document.getElementById("index"));
